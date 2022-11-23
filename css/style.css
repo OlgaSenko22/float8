@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    background-color: #E6E6E6;
+    color: white;
+    border: 20px solid #C4C4C4;
+    margin: 0;
+}
+.container {
+    border: 20px solid #C4C4C4;
+}
+.one {
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    float: left;
+}
+.two {
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    float: right;
+}
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.one-chenged {
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    float: left;
+    margin-right: 633px;
+}
+.three {
+    width: 100px;
+    height: 100px;
+    background-color: #FC8F8F;
+    float: left;
+    margin-right: 12px;
+}
+.three p {
+    margin: 0;
+    padding-top: 10px;
+}
+.three:last-child {
+    margin-right: 0;
+}
+.four {
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    float: left;
+    margin-right: 12px;
+}
+.four-chenged {
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    float: left;
+    margin-right: 445px;
+}
+.five {
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    float: left;
+    margin-right: 12px;
+}
+.five:last-child {
+    margin-right: 0px;
+}
