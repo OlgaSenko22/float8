@@ -34,7 +34,9 @@ body {
     height: 200px;
     background-color: #FC8F8F;
     float: left;
-    margin-right: 633px;
+}
+.box {
+    float: right;
 }
 .three {
     width: 100px;
@@ -62,7 +64,6 @@ body {
     height: 200px;
     background-color: #FC8F8F;
     float: left;
-    margin-right: 445px;
 }
 .five {
     width: 200px;
